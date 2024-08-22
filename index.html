@@ -55,11 +55,11 @@
       <!-- Navigation section -->
       <nav class="flex items-center justify-between px-20 mx-auto bg-gray-100	 max-sm:py-3 max-sm:px-2">
          <div class="brand-logo flex items-center gap-1">
-          <ion-icon name="arrow-forward-outline" class="text-2xl bg-lime-400 rounded-full rotate-[-45deg] max-sm:text-lg"></ion-icon>
-          <h2 class=" text-2xl font-extrabold	max-md:text-xl" >Rinterio</h2>
+          <ion-icon name="arrow-forward-outline" class="text-2xl bg-lime-400 rounded-full rotate-[-45deg] max-sm:text-2xl"></ion-icon>
+          <h2 class=" text-2xl font-extrabold	max-md:text-2xl" >Rinterio</h2>
          </div>
 
-         <div class="sm:nav-links max-md:hidden">
+         <div class="sm:nav-links max-sm:hidden">
           <ul class="flex items-center gap-10 text-lg text-neutral-500">
             <li class=" font-bold text-black"><a href="#">Home</a></li>
             <li><a href="#">Service</a></li>
@@ -69,7 +69,7 @@
           </ul>
          </div>
          <div class="menu-righ flex gap-2 max-sm:gap-1 ">
-            <div class="right-icon flex gap-2 items-center max-sm:gap-1">
+            <div class="right-icon flex gap-2 items-center max-sm:gap-1 max-sm:hidden">
               <ion-icon name="search-outline" class="text-xl rounded-full bg-white p-2 flex items-center max-sm:text-sm max-sm:p-1"></ion-icon>
               <ion-icon name="cart-outline"  class="text-xl rounded-full bg-white p-2 flex items-center max-sm:text-sm max-sm:p-1"></ion-icon>
               <div class="btn flex items-center gap-1 bg-lime-400 rounded-full px-2 py-2 max-sm:px-1 max-sm:py-1">
@@ -78,27 +78,85 @@
               </div>
             </div>
               <div class="mobile-menu sm:hidden flex items-start mt-1 max-sm:mt-2">
-                <ion-icon name="menu-outline"  class="text-2xl rounded-full bg-white p-2 flex items-center  max-sm:text-sm max-sm:p-0"></ion-icon>
+                <ion-icon name="menu-outline"  class="text-2xl rounded-full bg-white p-2 flex items-center  max-sm:text-2xl max-sm:p-0"></ion-icon>
             </div>
          </div>
       </nav>
       <!-- Hero Section -->
-        <div class="hero-section bg-gray-100 px-15 max-sm:px-2 max-sm:py-2">
-            <div class="hero-img items-center flex justify-center w-full h-full max-sm:px-10">
+        <div class="hero-section bg-gray-100 px-15 max-sm:px-2 max-sm:py-0">
+            <div class="hero-img items-center flex justify-center w-full h-full max-sm:px-5">
               <img class="w-3/4 max-sm:w-full "  src="./Images/banner.png" alt="">
             </div>
             <div class="hero-taitle flex flex-col	gap-4 items-center max-sm:gap-1">
-              <h1 class="text-5xl font-extrabold w-full p-2 justify-center text-center max-sm:text-lg max-sm:px-2">A barn house of this design has a</br>striking appearance</h1>
-              <p class="w-6/12 text-xs text-center leading-5 max-sm:w-full max-sm:px-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+              <h1 class="text-5xl font-extrabold w-full p-2 justify-center text-center max-sm:text-3xl max-sm:px-1">A barn house of this design has a striking appearance</h1>
+              <p class="w-6/12 text-sm text-center leading-5 max-sm:w-full max-sm:px-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
 
-              <div class="btn flex items-center gap-1 bg-lime-200 px-5 py-2 rounded-full max-sm:px-2 max-sm:py-1 max-sm:mt-2">
-                <button class="text-xl font-semibold max-sm:text-sm">View Details</button>
+              <div class="btn flex items-center gap-1 bg-lime-200 px-5 py-2 rounded-full max-sm:px-5 max-sm:py-2 max-sm:mt-2 max-sm:w-full max-sm:items-center max-sm:justify-center max-sm:mb-5">
+                <button class="text-xl font-semibold max-sm:text-lg">View Details</button>
                 <ion-icon name="arrow-forward-outline" class="text-xl bg-lime-400 rounded-full rotate-[-45deg] max-sm:text-sm"></ion-icon>
               </div>
               
             </div>
         </div>
      </header>
+     <!-- <======================================>
+     <=============Header===========>
+     <==============End====================> -->
+
+    <!-- <======================================>
+     <=============Our Design===========>
+     <=======================================> -->
+     <section class="relative bg-slate-200 px-20 py-10 mt-10 max-sm:px-1 max-sm:py-2 max-sm:mt-0">
+      <img src="./Images/Vector.png" class="absolute top-8 left-5 max-sm:hidden" alt="Vector">
+
+      <div class="our-design flex  gap-10 justify-between max-sm:flex-col max-sm:gap-2">
+        <div class="title w-6/12 p-10 max-sm:w-full max-sm:p-5">
+          <div class="btn flex max-sm:items-center bg-white w-32 px-3 py-1 rounded-full max-sm:justify-center max-sm:mx-auto ">
+            <ion-icon name="arrow-forward-outline" ></ion-icon>
+            <button class="font-bold max-sm:text-lg max-sm:font-normal:">About Us</button>
+          </div>
+          <div class="des flex flex-col gap-10 pt-3 max-sm:gap-5 max-sm:pt-2">
+            <h1 class="text-5xl font-extrabold max-sm:text-2xl max-sm:text-center">We design thoughtful,</br> liveable spaces</h1>
+            <p class="text-sm max-sm:text-sm max-sm:w-11/12 max-sm:text-center">The barn house captivates with its blend of rustic charm and 
+              modern sophistication, featuring weathered wood, sleek metal accents
+            </p>
+
+            <div class="flex flex-col gap-8 max-sm:gap-4">
+              <div class="cart-box flex gap-3 items-center bg-white rounded-lg">
+                <div class="logo-box">
+                  <img class="p-5 max-sm:p-2" src="./Images/commercial.png" alt="">
+                </div>
+                <div class="box-des max-sm:py-5 max-sm:w-10/12">
+                  <h3 class="font-bold text-lg max-sm:mb-2">Commercial</h3>
+                  <p class="text-sm w-9/12 max-sm:w-full">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+  
+              <div class="cart-box flex gap-3 items-center bg-white rounded-lg">
+                <div class="logo-box">
+                  <img class="p-5  max-sm:p-2" src="./Images/residential.png" alt="">
+                </div>
+                <div class="box-des  max-sm:py-5 max-sm:w-10/12">
+                  <h3 class="font-bold text-lg max-sm:mb-2" >Residential</h3>
+                  <p class="text-sm w-9/12 max-sm:w-full">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+        <div class="img  w-6/12 p-10 max-sm:w-full max-sm:p-5">
+          <img src="./Images/Rectangle.png" class="w-10/12	max-sm:w-full" alt="">
+
+        </div>
+      </div>
+     </section>
+
+
      
      
 
