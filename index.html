@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio Make You're Own House</title>
+
+     <!-- <======================================>
+     <=============Tailwind-Cdn-Script===========>
+     <=======================================> -->
+     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <======================================>
+     <=============Tailwind-Cdn-Script===========>
+     <================End====================> -->
+     <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+            fontFamily:{
+              manrope:["Manrope", 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <!-- <======================================>
+         <=============Iconic-Script===========>
+     <=======================================> -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.
+    js"></script>
+    <!-- <======================================>
+        <=============Iconic-Script===========>
+     <===============End==================> -->
+
+     <!-- <======================================>
+        <=============Google Font cdn===========>
+     <=======================================> -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800& display=swap" rel="stylesheet">
+    <!-- <======================================>
+       <=============Google Font cdn===========>
+     <==================End==================> -->
+     <link rel="stylesheet" href="/styles/global.css">
+</head>
+<body class="font-manrope">
+     <!-- <======================================>
+     <=============Header===========>
+     <=======================================> -->
+     <header>
+      <!-- Navigation section -->
+      <nav class="flex items-center justify-between mx-auto sm:px-20 bg-gray-100	 sm:py-4 px-4 max-sm:py-3">
+         <div class="brand-logo flex items-center gap-1">
+          <ion-icon name="arrow-forward-outline" class="text-2xl bg-lime-400 rounded-full rotate-[-45deg] max-sm:text-lg"></ion-icon>
+          <h2 class=" text-2xl font-extrabold	max-md:text-xl" >Rinterio</h2>
+         </div>
+
+         <div class="sm:nav-links max-md:hidden">
+          <ul class="flex items-center gap-10 text-lg text-neutral-500">
+            <li class=" font-bold text-black"><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+         </div>
+         <div class="menu-righ flex gap-2 ">
+            <div class="right-icon flex gap-2 items-center">
+              <ion-icon name="search-outline" class="text-xl rounded-full bg-white p-2 flex items-center max-sm:text-sm p-1"></ion-icon>
+              <ion-icon name="cart-outline"  class="text-xl rounded-full bg-white p-2 flex items-center max-sm:text-sm p-1"></ion-icon>
+              <div class="btn flex items-center gap-1 bg-lime-400 rounded-full px-2 py-2">
+                <button class=" text-lg font-semibold max-sm:text-sm px-1 py-0">Book Consult</button>
+                <ion-icon name="arrow-forward-outline"  class="text-2xl bg-black text-white rounded-full rotate-[-45deg] max-sm:text-sm"></ion-icon>
+              </div>
+            </div>
+              <div class="mobile-menu sm:hidden flex items-start mt-1">
+                <ion-icon name="menu-outline"  class="text-2xl rounded-full bg-white p-2 flex items-center  max-sm:text-sm p-0"></ion-icon>
+            </div>
+         </div>
+      </nav>
+      <!-- Hero Section -->
+        <div class="hero-section bg-gray-100 px-20 max-sm:px-5 py-2">
+            <div class="hero-img items-center flex justify-center w-full h-full max-sm:px-10">
+              <img src="./Images/banner.png" alt="">
+            </div>
+            <div class="hero-taitle flex flex-col	gap-4 items-center max-sm:gap-2">
+              <h1 class="text-5xl font-extrabold w-full p-2 justify-center text-center max-sm:text-2xl">A barn house of this design has a</br>striking appearance</h1>
+              <p class="w-6/12 text-xs text-center leading-5 max-sm:w-full px-10">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+
+              <div class="btn flex items-center gap-1 bg-lime-200 px-5 py-2 rounded-full max-sm:px-5 max-sm:py-1">
+                <button class="text-xl font-semibold max-sm:text-lg">View Details</button>
+                <ion-icon name="arrow-forward-outline" class="text-xl bg-lime-400 rounded-full rotate-[-45deg] max-sm:text-lg"></ion-icon>
+              </div>
+              
+            </div>
+        </div>
+     </header>
+     
+
+
+
+</body>
+</html>
